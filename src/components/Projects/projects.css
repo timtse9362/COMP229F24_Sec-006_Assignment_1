@@ -1,0 +1,52 @@
+/*
+    File name: projects.css
+    Student name: Kin Chuen Tse
+    Student ID: 301371464
+    Date: Sept 26, 2024
+*/
+
+#projects{
+    align-items: center;
+    text-align: center;
+}
+
+/* Layout Styles */
+.projectsContent {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projectsTitle{
+    font-size: 3rem;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.project h2 {
+    color: #007bff;
+}
+
+
+.project p {
+    color: #666;
+}
+
+@media screen and (max-width:585px) {
+
+    
+}

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+/*
+    File name: App.js
+    Student name: Kin Chuen Tse
+    Student ID: 301371464
+    Date: Sept 26, 2024
+*/
 
+import Navbar from "./components/NavBar/navbar";
+import Intro from "./components/Intro/introduction";
+import About from "./components/About/about";
+import Projects from "./components/Projects/projects";
+import Services from "./components/Services/services"
+import Contact from "./components/Contact/contact";
+import Footer from "./components/Footer/footer";
+
+//Main Content Section
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Intro/>
+      <About/>
+      <Projects/>
+      <Services/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

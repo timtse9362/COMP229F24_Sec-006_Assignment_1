@@ -1,0 +1,18 @@
+/*
+    File name: footer.css
+    Student name: Kin Chuen Tse
+    Student ID: 301371464
+    Date: Sept 26, 2024
+*/
+
+/* Layout Styles */
+.footer{
+    width: 100vw;
+    height: 4rem;
+    background: rgb(40,40,40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: small;
+}

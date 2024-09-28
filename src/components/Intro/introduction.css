@@ -1,0 +1,53 @@
+/*
+    File name: introduction.css
+    Student name: Kin Chuen Tse
+    Student ID: 301371464
+    Date: Sept 26, 2024
+*/
+
+#intro{
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Layout Styles */
+.welcome{
+    font-size: 5rem;
+    text-align: left;
+}
+
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutLink{
+    border: none;
+    width: 23rem;
+    border-radius: 0.5rem;
+    padding: 0.7rem 3.5rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.aboutLink:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+    text-decoration:none;
+}
+
+@media screen and (max-width:480px) {
+    .bg{
+        right: -20vw
+    }
+
+}
